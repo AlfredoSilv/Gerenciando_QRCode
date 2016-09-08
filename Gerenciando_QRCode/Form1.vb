@@ -13,7 +13,6 @@ Public Class Form1
         If Not String.IsNullOrWhiteSpace(txtQRCode.Text) Then
             Try
                 tamanhoNormaldoForm()
-                'Dim url As String = txtUrl.Text
                 Dim QRCodeText As String = txtQRCode.Text
                 Dim qrencod As New QRCodeEncoder()
                 Dim qrcode As Bitmap = qrencod.Encode(QRCodeText)
