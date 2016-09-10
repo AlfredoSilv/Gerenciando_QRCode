@@ -2,8 +2,8 @@
 Imports MessagingToolkit.QRCode.Codec.Data
 Public Class Form1
     Private Sub tamanhoNormaldoForm()
-        Me.Width = 869
-        Me.Height = 419
+        Me.Width = 900
+        Me.Height = 600
     End Sub
 
     Private Sub btnSair_Click(sender As Object, e As EventArgs) Handles btnSair.Click
@@ -30,7 +30,7 @@ Public Class Form1
             Try
                 tamanhoNormaldoForm()
                 Dim sfd As New SaveFileDialog()
-                sfd.InitialDirectory = "c:\QrCode\"
+                sfd.InitialDirectory = "D:\QrCode\"
                 sfd.Filter = "JPEG | *.png| JPEG| *.jpg | BMP| *.bmp"
                 If sfd.ShowDialog() = System.Windows.Forms.DialogResult.OK Then
                     picImagem.Image.Save(sfd.FileName)
@@ -47,7 +47,7 @@ Public Class Form1
         Try
             tamanhoNormaldoForm()
             Dim ofd As New OpenFileDialog()
-            ofd.InitialDirectory = "c:\QrCode\"
+            ofd.InitialDirectory = "D:\QrCode\"
             If ofd.ShowDialog() = System.Windows.Forms.DialogResult.OK Then
                 picImagem.ImageLocation = ofd.FileName
             End If

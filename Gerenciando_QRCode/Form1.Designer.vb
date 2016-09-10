@@ -39,16 +39,16 @@ Partial Class Form1
         '
         'picImagem
         '
-        Me.picImagem.Location = New System.Drawing.Point(18, 55)
+        Me.picImagem.Location = New System.Drawing.Point(34, 55)
         Me.picImagem.Name = "picImagem"
-        Me.picImagem.Size = New System.Drawing.Size(327, 348)
+        Me.picImagem.Size = New System.Drawing.Size(423, 421)
         Me.picImagem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.picImagem.TabIndex = 0
         Me.picImagem.TabStop = False
         '
         'btnSair
         '
-        Me.btnSair.Location = New System.Drawing.Point(351, 57)
+        Me.btnSair.Location = New System.Drawing.Point(445, 555)
         Me.btnSair.Name = "btnSair"
         Me.btnSair.Size = New System.Drawing.Size(150, 40)
         Me.btnSair.TabIndex = 3
@@ -57,7 +57,7 @@ Partial Class Form1
         '
         'btnLer
         '
-        Me.btnLer.Location = New System.Drawing.Point(351, 108)
+        Me.btnLer.Location = New System.Drawing.Point(523, 498)
         Me.btnLer.Name = "btnLer"
         Me.btnLer.Size = New System.Drawing.Size(150, 40)
         Me.btnLer.TabIndex = 4
@@ -66,7 +66,7 @@ Partial Class Form1
         '
         'btnCarregar
         '
-        Me.btnCarregar.Location = New System.Drawing.Point(351, 159)
+        Me.btnCarregar.Location = New System.Drawing.Point(367, 498)
         Me.btnCarregar.Name = "btnCarregar"
         Me.btnCarregar.Size = New System.Drawing.Size(150, 40)
         Me.btnCarregar.TabIndex = 5
@@ -75,7 +75,7 @@ Partial Class Form1
         '
         'btnSalvar
         '
-        Me.btnSalvar.Location = New System.Drawing.Point(351, 210)
+        Me.btnSalvar.Location = New System.Drawing.Point(211, 498)
         Me.btnSalvar.Name = "btnSalvar"
         Me.btnSalvar.Size = New System.Drawing.Size(150, 40)
         Me.btnSalvar.TabIndex = 6
@@ -84,7 +84,7 @@ Partial Class Form1
         '
         'btnGerar
         '
-        Me.btnGerar.Location = New System.Drawing.Point(351, 261)
+        Me.btnGerar.Location = New System.Drawing.Point(55, 498)
         Me.btnGerar.Name = "btnGerar"
         Me.btnGerar.Size = New System.Drawing.Size(150, 40)
         Me.btnGerar.TabIndex = 7
@@ -93,15 +93,16 @@ Partial Class Form1
         '
         'txtQRCode
         '
-        Me.txtQRCode.Location = New System.Drawing.Point(507, 55)
+        Me.txtQRCode.Location = New System.Drawing.Point(480, 55)
         Me.txtQRCode.Multiline = True
         Me.txtQRCode.Name = "txtQRCode"
-        Me.txtQRCode.Size = New System.Drawing.Size(327, 348)
+        Me.txtQRCode.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.txtQRCode.Size = New System.Drawing.Size(370, 421)
         Me.txtQRCode.TabIndex = 8
         '
         'btnLimpar
         '
-        Me.btnLimpar.Location = New System.Drawing.Point(351, 363)
+        Me.btnLimpar.Location = New System.Drawing.Point(289, 555)
         Me.btnLimpar.Name = "btnLimpar"
         Me.btnLimpar.Size = New System.Drawing.Size(150, 40)
         Me.btnLimpar.TabIndex = 9
@@ -110,7 +111,7 @@ Partial Class Form1
         '
         'btnImprimir
         '
-        Me.btnImprimir.Location = New System.Drawing.Point(351, 312)
+        Me.btnImprimir.Location = New System.Drawing.Point(679, 498)
         Me.btnImprimir.Name = "btnImprimir"
         Me.btnImprimir.Size = New System.Drawing.Size(150, 40)
         Me.btnImprimir.TabIndex = 10
@@ -123,7 +124,7 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(15, 31)
+        Me.Label1.Location = New System.Drawing.Point(33, 31)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(51, 13)
         Me.Label1.TabIndex = 11
@@ -132,7 +133,7 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(504, 31)
+        Me.Label2.Location = New System.Drawing.Point(522, 31)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(96, 13)
         Me.Label2.TabIndex = 12
@@ -142,7 +143,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(853, 418)
+        Me.ClientSize = New System.Drawing.Size(884, 611)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnImprimir)
