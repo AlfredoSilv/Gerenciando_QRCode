@@ -3,7 +3,7 @@ Imports MessagingToolkit.QRCode.Codec.Data
 Public Class Form1
     Private Sub tamanhoNormaldoForm()
         Me.Width = 900
-        Me.Height = 600
+        Me.Height = 650
     End Sub
 
     Private Sub btnSair_Click(sender As Object, e As EventArgs) Handles btnSair.Click
